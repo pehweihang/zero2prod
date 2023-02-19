@@ -1,2 +1,5 @@
 [target.x86_64-unknown-linux-gnu]
 rustflags = ["-C", "linker=clang", "-C", "link-arg=-fuse-ld=lld"]
+
+[source.crates-io]
+registry = "git://github.com/rust-lang/crates.io-index.git"
